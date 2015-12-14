@@ -1,0 +1,124 @@
+html, body, div, h1, h2, h3, p, b, i, strong, em, strike, sub, sup, ul, ol, li,
+blockquote, form, input, textarea, select, button, td, tr, th, table, span,
+header, footer, article, aside, nav, section, main  {
+	padding:0;
+	margin:0;
+	vertical-align:baseline;
+}
+* { transform: translate3d(0, 0, 0); }
+header, footer, article, aside, nav, section, main { display:block; }
+html { overflow-y:scroll; }
+:before, :after {
+    content: '';
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+[placeholder]          {text-overflow:ellipsis;}
+::-moz-placeholder     {text-overflow:ellipsis;}
+:-moz-placeholder      {text-overflow:ellipsis;}
+:-ms-input-placeholder {text-overflow:ellipsis;}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+:focus { outline:none; }
+body {
+	background:#fff;
+	color:#222;
+	font-family:serif;
+	font-size:100%;
+        cursor: default;
+}
+img {
+	border: none;
+	outline: none;
+        height: auto;
+        max-width: 100%;
+        width: auto\9;
+}
+#map img {
+        max-width: none;
+}
+a {
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+}
+a:visited, a:active, a.current, a.active {
+	outline:none;
+}
+ul {
+	list-style:none;
+	margin: 0;
+        padding: 0;
+}
+ol {
+	list-style:none;
+	margin: 0;
+        padding: 0;
+}
+nav ol, nav ul {
+	list-style:none;
+	padding:0;
+}
+nav li {
+	display:block;
+        padding: 0;
+}
+label {
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+}
+input, select, textarea {
+	display:block;
+	font-family:inherit;
+	outline:none;
+        box-sizing: border-box;
+}
+input, button {
+       -webkit-appearance: none;
+       -moz-appearance: none;
+       appearance: none;
+}
+textarea {
+	resize:vertical;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+button, [type="submit"] {
+        cursor: pointer;
+}
+sub, sup {
+	font-size:70%;
+	line-height:0;
+	vertical-align:baseline;
+	position:relative;
+}
+sub { bottom:-0.5em; }
+sup { top:-0.5em; }
+
+b, strong { font-weight:bold; }
+i, em { font-style:italic; }
+
+h1 { font-size: 2em;}
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+
+small { font-size:85%;}
+
+table, td {
+	border-collapse:collapse;
+	border-spacing:none;
+}
+address {
+       font-style: normal;
+}
